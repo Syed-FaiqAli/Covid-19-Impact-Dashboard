@@ -1,89 +1,77 @@
 # COVID-19 Impact Dashboard – Power BI Project
 
-This repository showcases a complete data analysis and visualization project built using Power BI and Excel, analyzing the impact of COVID-19 across India. It includes interactive dashboards, SWOT analysis, key questions, and a presentation — packaged as a full data-driven case study.
+This repository showcases a comprehensive data analysis and visualization project built using Power BI and Microsoft Excel to analyze the impact of COVID-19 across India. The project encompasses interactive dashboards, a SWOT analysis framework, critical business questions, and a formal presentation—structured as a complete end-to-end data case study.
 
 ---
 
-## 📊 Dashboard Structure
+## Dashboard Structure
 
-The `.pbix` Power BI file contains **two interactive dashboards**:
+The `.pbix` Power BI file includes two specialized reporting views:
 
 ### 1. General Dashboard
-- Total and daily COVID-19 cases, deaths, recoveries
-- Interactive filtering by state and date
-- KPIs and regional comparisons
+* **Metrics:** Tracking of total and daily COVID-19 cases, mortality rates, and recovery figures.
+* **Interactivity:** Dynamic filtering capabilities by state and historical date ranges.
+* **Analysis:** High-level KPIs and cross-regional performance comparisons.
 
 ### 2. Management View
-- Sector-wise and strategic insights
-- Testing ratios, trends, and drilldowns for decision-makers
+* **Strategic Insights:** Macro-level sector impacts and strategic operational takeaways.
+* **Advanced Metrics:** Testing ratios, longitudinal trends, and granular drill-downs optimized for decision-makers.
 
 ---
 
-## 📁 Dataset & Analysis Files
+## Dataset and Analysis Files
 
-Located in the `/data/` folder:
+All foundational data and analytical frameworks are located within the `/data/` directory:
 
-| File | Description |
-|------|-------------|
-| `covid_dataset.xlsx` | Raw data used in dashboard – region-wise daily COVID stats |
-| `swot_analysis.xlsx` | SWOT analysis of the pandemic response |
-| `key_gaps_questions.xlsx` | Identified gaps and business questions addressed in the dashboard |
+| File Name | Description |
+| :--- | :--- |
+| `covid_dataset.xlsx` | Raw region-wise daily COVID-19 statistical dataset utilized for dashboard ingestion. |
+| `swot_analysis.xlsx` | Strategic SWOT analysis evaluating the nationwide pandemic response. |
+| `key_gaps_questions.xlsx` | Documentation of identified operational gaps and core business questions addressed by the visual reports. |
 
-> All Excel sheets were used to guide the dashboard logic and storytelling.
-
----
-
-## 🎯 Project Presentation
-
-A formal PowerPoint presentation of the entire project is available in the `/presentation/` folder.
-
-- **File**: `covid_dashboard_presentation.pptx`
-- Covers: Project goal, approach, insights, dashboard walkthrough, and conclusions
+> **Note:** The auxiliary Excel models served as the structural foundation for the data logic, semantic modeling, and analytical storytelling.
 
 ---
 
-## 🖼️ Dashboard Screenshots
+## Project Presentation
 
-### General Dashboard  
+A formal executive-level PowerPoint presentation detailing the project life cycle is available in the `/presentation/` directory.
+
+* **File:** `covid_dashboard_presentation.pptx`
+* **Core Content:** Project scope, methodology, key analytical insights, dashboard walkthrough, and strategic conclusions.
+
+---
+
+## Dashboard Screenshots
+
+### General Dashboard View
 ![General Dashboard Preview](screenshots/general-dashboard.png)
 
-### Management View  
+### Management Executive View
 ![Management Dashboard Preview](screenshots/management-dashboard.png)
 
 ---
 
-## 🛠 Tools & Technologies
+## Technical Stack
 
-- Power BI (DAX, Power Query)
-- Excel (data planning, SWOT, gap analysis)
-- PowerPoint (project presentation)
+* **Power BI:** Data modeling, DAX (Data Analysis Expressions), and Power Query ETL pipelines.
+* **Microsoft Excel:** Data preprocessing, SWOT modeling, and gap analysis framework development.
+* **Microsoft PowerPoint:** Executive presentation design.
 
 ---
 
-## 📁 Project Structure
+## Repository Structure
+
+```text
 covid-dashboard-powerbi/
 ├── COVID_Dashboard.pbix
 ├── README.md
 ├── data/
-│ ├── covid_dataset.xlsx
-│ ├── swot_analysis.xlsx
-│ └── key_gaps_questions.xlsx
+│   ├── covid_dataset.xlsx
+│   ├── swot_analysis.xlsx
+│   └── key_gaps_questions.xlsx
 ├── presentation/
-│ └── covid_dashboard_presentation.pptx
+│   └── covid_dashboard_presentation.pptx
 └── screenshots/
-├── general-dashboard.png
-└── management-dashboard.png
-
----
-
-## 👤 Author
-
-**Sibghathullah Hasan**  
-B.Tech (CSE – AI & ML)  
-Hyderabad, India  
-[LinkedIn](www.linkedin.com/in/sibghathullah-hasan-a8563830a)  
-[GitHub](https://github.com/Sib-coffee)
-
----
-
-> 🔒 This project is intended for academic and portfolio demonstration purposes only.
+    ├── general-dashboard.png
+    └── management-dashboard.png
