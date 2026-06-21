@@ -1,3 +1,4 @@
+
 # COVID-19 Impact Dashboard – Power BI Project
 
 This repository showcases a comprehensive data analysis and visualization project built using Power BI and Microsoft Excel to analyze the impact of COVID-19 across India. The project encompasses interactive dashboards, a SWOT analysis framework, critical business questions, and a formal presentation—structured as a complete end-to-end data case study.
@@ -75,3 +76,4 @@ covid-dashboard-powerbi/
 └── screenshots/
     ├── general-dashboard.png
     └── management-dashboard.png
+>>>>>>> 8eca660be573c81596b23585a0fb80542e893e42
